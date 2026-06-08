@@ -1,29 +1,22 @@
-import { createRequire } from "node:module";
+import { createRequire as e } from "node:module";
 //#region \0rolldown/runtime.js
-var __require = /* @__PURE__ */ createRequire(import.meta.url);
-//#endregion
-//#region electron/main.js
-var { app, BrowserWindow } = __require("electron");
-var path = __require("path");
-function createWindow() {
-	const win = new BrowserWindow({
+var t = /* @__PURE__ */ e(import.meta.url), { app: n, BrowserWindow: r } = t("electron"), i = t("path");
+function a() {
+	let e = new r({
 		width: 1200,
 		height: 800,
 		title: "생기부 마스터",
 		webPreferences: {
-			nodeIntegration: true,
-			contextIsolation: false
+			nodeIntegration: !0,
+			contextIsolation: !1
 		}
 	});
-	if (process.env.VITE_DEV_SERVER_URL) win.loadURL(process.env.VITE_DEV_SERVER_URL);
-	else win.loadFile(path.join(__dirname, "../dist/index.html"));
+	process.env.VITE_DEV_SERVER_URL ? e.loadURL(process.env.VITE_DEV_SERVER_URL) : e.loadFile(i.join(__dirname, "../dist/index.html"));
 }
-app.whenReady().then(createWindow);
-app.on("window-all-closed", () => {
-	if (process.platform !== "darwin") app.quit();
-});
-app.on("activate", () => {
-	if (BrowserWindow.getAllWindows().length === 0) createWindow();
+n.whenReady().then(a), n.on("window-all-closed", () => {
+	process.platform !== "darwin" && n.quit();
+}), n.on("activate", () => {
+	r.getAllWindows().length === 0 && a();
 });
 //#endregion
 export {};

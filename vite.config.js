@@ -9,4 +9,5 @@ export default defineConfig({
       entry: 'electron/main.js',
     }),
   ],
+  base: '/antigravity-studyy/',
 })
