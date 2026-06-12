@@ -1,16 +1,15 @@
-# React + Vite
+# 생기부 마스터 (생기부 작성 프로그램)
+## 이 프로그램은 고등학교 학생과 교사를 위한 생기부 작성기입니다.
+## 환영합니다
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**고등학교 구성원**을 위한 생기부 마스터 사용법
+- 먼저 학생용 또는 교사용으로 로그인 합니다 (자신의 이메일을 치고 비밀번호는 아무거나 쳐도 들어가집니다)
+- [ ] 새 활동 작성을 클릭합니다.
+- [ ] 과목명을 선택하고 생기부에 연계해서 같이 작성하고 싶은 과목이 있다면 작성합니다.
+- [ ] 학생은 강조하고 싶은 키워드를 선택하고 활동에 참여하게 된 계기 및 과정 결과 및 변화를 작성합니다.
+- [ ] 학생이 작성을 마치면 교사는 목록에서 학생의 자료를 확인할 수 있습니다.
+- 교사는 AI 대학 최적화 문구에서 강조하고 싶은 역량을 선택한 후 AI 추천 문구 생성을 클릭합니다.
+- AI 추천 문구를 기반으로 교사는 내용을 수정할 수 있으며, 자료가 부족한 경우 학생에게 반려 및 재요청을 할수도 있습니다.
+- 생기부 작성 예시는 다음과 같습니다
+- > [진로] 수업 중 열정적임을 바탕으로 활동을 주도함. 수업중 베네딕트의 국화와 칼을 읽고 일본인들이 전쟁 패배 이후 어떤 마음을 가졌는지 궁금한 마음이 들어 이 활동을 시작하게 되었다. 에 관심을 갖고 국화와 칼에서 일본인들이 전쟁 이후 선전물에서 전쟁의 결과보다는 과정의 숭고함을 담으며 전쟁의 비판으로 부터 회피했다는 점을 알게되었고, 이를 바탕으로 전쟁의 책임은 누구에게 있는가?라는 질문을 받았을 때 일본인들이 어떤 마음가짐을 갖는지 궁금해서 민주와 애국이라는 책을 읽었다. 일본인들은 전쟁 패배 이후 천황이 자결할 것을 기대했으나 자결하지 않는 것을 보고 천황제가 폐지되어야할 것을 주장했다. 그러면서도 그 근거를 전사자들에게만 두며 자신들이 아시아에 한 행위는 무시한 채 책임을 회피하는 모습을 보였다. 심지어 천황제 폐지를 주장하면서도 천황에게는 애정을 버리지 못하는 등의 모순을 가졌다. 를 수행하며 진로 역량을 입증함. 특히 일본인들이 천황제 폐지를 주장하면서도 천황에게 애정을 버리지 못하는 이유가 무엇인지에 생각해보는 계기가 되었다. 이는 메이지 시대 부터 일본인들의 내면에 잠재 되어온 내셔널리즘과 천황에 대한 애정이 사라지게 되면 천황제 폐지를 주장하던 근거인 전사자들의 죽음이 아무것도 아닌것이 되기 때문임을 알게되었다. 이후 일본인들이 현재에도 이러한 내셔널리즘을 가지고 있는지 더 탐구해보고 싶다는 생각을 갖게 되었다의 성장을 보임.
+- 모두 작성을 마치면 교사는 학생에게 내용을 전달하는 것으로 마무리됩니다. 
